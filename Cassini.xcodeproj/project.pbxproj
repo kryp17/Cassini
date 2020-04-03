@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3BF5718024374D1500F27322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5717F24374D1500F27322 /* AppDelegate.swift */; };
 		3BF5718224374D1500F27322 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5718124374D1500F27322 /* SceneDelegate.swift */; };
-		3BF5718424374D1500F27322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5718324374D1500F27322 /* ViewController.swift */; };
 		3BF5718724374D1500F27322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF5718524374D1500F27322 /* Main.storyboard */; };
 		3BF5718924374D1600F27322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF5718824374D1600F27322 /* Assets.xcassets */; };
 		3BF5718C24374D1600F27322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF5718A24374D1600F27322 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		3BF5717C24374D1500F27322 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF5717F24374D1500F27322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BF5718124374D1500F27322 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BF5718324374D1500F27322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BF5718624374D1500F27322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BF5718824374D1600F27322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BF5718B24374D1600F27322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 		3BF5717E24374D1500F27322 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				3BF5718324374D1500F27322 /* ViewController.swift */,
 				3BF5718524374D1500F27322 /* Main.storyboard */,
 				3BF5719324374D2800F27322 /* Support files */,
 				3BF5718D24374D1600F27322 /* Info.plist */,
@@ -146,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF5718424374D1500F27322 /* ViewController.swift in Sources */,
 				3BF5718024374D1500F27322 /* AppDelegate.swift in Sources */,
 				3BF5718224374D1500F27322 /* SceneDelegate.swift in Sources */,
 			);
