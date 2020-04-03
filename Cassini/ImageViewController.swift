@@ -40,7 +40,7 @@ class ImageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if imageURL == nil{
-            
+            imageURL = DemoURLs.stanford
         }
     }
     
