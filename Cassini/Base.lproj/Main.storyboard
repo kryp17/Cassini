@@ -30,9 +30,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="l3w-dy-vdO"/>
                     </view>
-                    <connections>
-                        <outlet property="scrollView" destination="Ync-db-AhJ" id="gaw-9n-dpq"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eZM-gT-I7N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
