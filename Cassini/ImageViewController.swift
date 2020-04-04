@@ -12,10 +12,17 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
 
     var imageURL: URL?{
         didSet{
-            image = nil
+            //image = nil
             if view.window != nil{
                 fetchImage()
             }
+        }
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        if imageURL == nil{
+            imageURL = DemoURLs.stanford
         }
     }
     
@@ -61,12 +68,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
         }
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        if imageURL == nil{
-            imageURL = DemoURLs.stanford
-        }
-    }
+
     
 }
 
