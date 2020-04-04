@@ -72,10 +72,8 @@
                                 <rect key="frame" x="188.5" y="456.5" width="37" height="37"/>
                                 <color key="color" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </activityIndicatorView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qyc-uF-Y3E">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qyc-uF-Y3E">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="m1A-FK-eKQ"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="tlY-DJ-Ugb"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -83,9 +81,9 @@
                             <constraint firstItem="xiv-hv-RhB" firstAttribute="centerX" secondItem="l3w-dy-vdO" secondAttribute="centerX" id="N1S-z5-Jjo"/>
                             <constraint firstItem="qyc-uF-Y3E" firstAttribute="bottom" secondItem="Ucl-aj-9Ez" secondAttribute="bottom" id="T0i-nd-KhQ"/>
                             <constraint firstItem="xiv-hv-RhB" firstAttribute="centerY" secondItem="l3w-dy-vdO" secondAttribute="centerY" id="ZIg-I6-SG8"/>
-                            <constraint firstAttribute="trailing" secondItem="qyc-uF-Y3E" secondAttribute="trailing" id="gDX-hb-jgf"/>
+                            <constraint firstItem="qyc-uF-Y3E" firstAttribute="trailing" secondItem="Ucl-aj-9Ez" secondAttribute="trailing" id="gDX-hb-jgf"/>
                             <constraint firstItem="qyc-uF-Y3E" firstAttribute="leading" secondItem="Ucl-aj-9Ez" secondAttribute="leading" id="idl-ZW-3bf"/>
-                            <constraint firstAttribute="top" secondItem="qyc-uF-Y3E" secondAttribute="top" id="yKf-Bi-VWt"/>
+                            <constraint firstItem="qyc-uF-Y3E" firstAttribute="top" secondItem="Ucl-aj-9Ez" secondAttribute="top" id="yKf-Bi-VWt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="l3w-dy-vdO"/>
                     </view>
