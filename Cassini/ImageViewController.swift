@@ -12,7 +12,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
 
     var imageURL: URL?{
         didSet{
-            //image = nil
+            image = nil
             if view.window != nil{
                 fetchImage()
             }
