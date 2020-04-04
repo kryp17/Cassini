@@ -21,9 +21,9 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //if imageURL == nil{
-        //    imageURL = DemoURLs.stanford
-        //}
+        if imageURL == nil{
+            imageURL = DemoURLs.stanford
+        }
     }
     
     private var image: UIImage?{
@@ -39,7 +39,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+        super.viewDidAppear(false)
         if imageView.image == nil{
             fetchImage()
         }
@@ -51,7 +51,6 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
             scrollView.minimumZoomScale = 1/25
             scrollView.maximumZoomScale = 1.0
             scrollView.delegate = self
-            scrollView.contentSize = imageView.frame.size
             scrollView.addSubview(imageView)
         }
     }
@@ -69,6 +68,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
                 let urlContents = try? Data(contentsOf: url)
                 DispatchQueue.main.async{
                     if let imageData = urlContents, url == self?.imageURL{
+                        //print(UIImage(data: imageData))
                         self?.image = UIImage(data: imageData)
                     }
                 }

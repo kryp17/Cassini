@@ -14,6 +14,7 @@ struct DemoURLs {
     static var NASA: Dictionary<String,URL> = {
         let NASAURLStrings = [
             "test":"https://picsum.photos/200/300",
+            "test2":"https://picsum.photos/seed/picsum/200/300",
             "Cassini":"https://www.jpl.nasa.gov/images/cassini/20090202/pia03883-full.jpg",
             "Earth":"https://www.nasa.gov/sites/default/files/wave_earth_mosaic_3.jpg",
             "Saturn":"https://www.nasa.gov/sites/default/files/saturn_collage.jpg"
