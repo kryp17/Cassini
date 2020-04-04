@@ -15,11 +15,13 @@ class CassiniViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
         if let identifier = segue.identifier{
             if let url = DemoURLs.NASA[identifier]{
-                if let imageVC = segue.destination as? ImageViewController{
+                var destination = segue.destination
+                if let navcon = destination as? UINavigationController{
+                    destination = navcon.visibleViewController ?? navcon
+                }
+                if let imageVC = destination as? ImageViewController{
                     imageVC.imageURL = url
                     imageVC.title = (sender as? UIButton)?.currentTitle
                 }

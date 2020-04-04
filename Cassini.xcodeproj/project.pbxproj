@@ -63,10 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				3BD5723C2438620D00772A41 /* CassiniViewController.swift */,
+				3BF5719424374DF700F27322 /* ImageViewController.swift */,
 				3BF5718524374D1500F27322 /* Main.storyboard */,
 				3BF571962437541F00F27322 /* DemoURLs.swift */,
 				3BF571982437562000F27322 /* anime.jpg */,
-				3BF5719424374DF700F27322 /* ImageViewController.swift */,
 				3BF5719324374D2800F27322 /* Support files */,
 				3BF5718D24374D1600F27322 /* Info.plist */,
 			);
